@@ -13,7 +13,7 @@ import type { PortfolioData } from "@/app/types/portfolio";
 const data = portfolioData as PortfolioData;
 
 // Add resume PDF to public folder as resume.pdf, or set an external URL (e.g. Google Drive)
-const RESUME_PDF_URL: string | undefined = "https://rxresu.me/hamzazafarrc/hamza-zafar-senior-react-native-engineer";
+const RESUME_PDF_URL: string | undefined = "https://drive.google.com/file/d/1ea9VFYD5GTwoVAJ7wvHmGmXJ8AN0cE7H/view?usp=sharing";
 
 export default function Home() {
   return (
