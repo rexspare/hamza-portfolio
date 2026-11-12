@@ -1,0 +1,177 @@
+@import "tailwindcss";
+
+:root {
+  --bg-base: #000000;
+  --bg-elevated: #050505;
+  --bg-surface: #0f0f0f;
+  --bg-surface-hover: #161616;
+  --foreground: #ededed;
+  --foreground-muted: #8a8f98;
+  --foreground-subtle: #5c6370;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-hover: rgba(255, 255, 255, 0.16);
+  --accent: #f4f4f5;
+  --accent-fg: #09090b;
+  --accent-muted: #60a5fa;
+  --ring: rgba(244, 244, 245, 0.35);
+  --grid-line: rgba(255, 255, 255, 0.04);
+  --ambient: rgba(255, 255, 255, 0.03);
+  --elevation-1: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --elevation-2: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --elevation-3: 0 20px 48px rgba(0, 0, 0, 0.55);
+}
+
+@theme inline {
+  --color-background: var(--bg-base);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--foreground-muted);
+  --color-subtle: var(--foreground-subtle);
+  --color-surface: var(--bg-surface);
+  --color-surface-hover: var(--bg-surface-hover);
+  --color-border: var(--border);
+  --color-border-hover: var(--border-hover);
+  --color-accent: var(--accent);
+  --color-accent-fg: var(--accent-fg);
+  --color-accent-muted: var(--accent-muted);
+  --font-sans: var(--font-plex-sans);
+  --font-display: var(--font-syne);
+  --font-mono: var(--font-jetbrains);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background: var(--bg-base);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-display {
+  font-family: var(--font-display), var(--font-sans), system-ui, sans-serif;
+}
+
+.font-mono {
+  font-family: var(--font-mono), ui-monospace, monospace;
+}
+
+/* Ambient hero background */
+.hero-ambient {
+  background-color: var(--bg-base);
+  background-image:
+    radial-gradient(ellipse 70% 50% at 50% -10%, var(--ambient), transparent 70%),
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: auto, 64px 64px, 64px 64px;
+  background-position: center, center, center;
+}
+
+/* Surface card */
+.surface-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--elevation-1);
+  transition:
+    border-color 200ms ease,
+    background-color 200ms ease,
+    box-shadow 250ms ease,
+    transform 250ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.surface-card:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-surface-hover);
+  box-shadow: var(--elevation-2);
+}
+
+.surface-card-interactive {
+  cursor: pointer;
+}
+
+.surface-card-interactive:hover {
+  transform: translateY(-2px);
+}
+
+/* Section rhythm */
+.section-padding {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+@media (min-width: 1024px) {
+  .section-padding {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-padding {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+}
+
+/* Timeline */
+.timeline-line {
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    var(--border) 8%,
+    var(--border) 92%,
+    transparent 100%
+  );
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+*:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: rgba(244, 244, 245, 0.16);
+  color: var(--foreground);
+}

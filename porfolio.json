@@ -1,0 +1,1199 @@
+{
+    "name": "Hamza Zafar",
+    "title": "Senior React Native Developer | Full Stack Mobile Engineer",
+    "sub_title": "Building Scalable Apps, One Commit at a Time 🚀",
+    "description": "Senior React Native Developer & Full Stack Mobile Engineer. 6+ years building iOS and Android apps with React Native, TypeScript, and Node.js. 50+ production apps shipped focused on performance, clean architecture, and on-time delivery.",
+    "experience": {
+        "title": "Experience",
+        "sub_title": "Building Scalable Apps, One Commit at a Time 🚀",
+        "description": "Results-driven Full Stack Mobile Engineer with 6+ years of experience building high-performance cross-platform iOS and Android apps using React Native. Delivered 50+ production applications, improving stability by 70%+ and reducing load times by 50%+. Specialized in TypeScript, Redux/Zustand, Firebase/Supabase, and scalable backend systems (Node.js/NestJS, GraphQL). Proven track record of leading teams, maintaining 60 FPS performance, and shipping pixel-perfect, production-ready applications in fast-paced Agile environments.",
+        "header_image_path": "experience.svg",
+        "sections": [
+            {
+                "title": "Work Experience",
+                "experiences": [
+                    {
+                        "title": "Senior Software Engineer",
+                        "company": "Acheev",
+                        "company_url": "https://www.acheevapp.io/",
+                        "logo_path": "acheev.png",
+                        "duration": "Aug 2024 – Present",
+                        "location": "Los Angeles, United States",
+                        "description": [
+                            "Engineered a 3-tier TypeScript ecosystem (React Native iOS/Android, React Coach Web Dashboard, GraphQL API) backed by 70+ domain models and 150+ database migrations.",
+                            "Developed dual-workflow coach programming features (workout builder, scheduling calendars, team/athlete assignment) supporting both individual and team operations.",
+                            "Integrated dual payment rails (Stripe Subscriptions & Apple IAP) alongside Stripe Connect automated payout pipelines.",
+                            "Built an automated video transcoding pipeline (BullMQ, FFmpeg, S3/HLS) featuring automatic retry logic alongside real-time status management for direct, team, and community chat channels."
+                        ]
+                    },
+                    {
+                        "title": "Senior Mobile Engineer",
+                        "company": "TechSea",
+                        "company_url": "https://techsea.io/",
+                        "logo_path": "techsea.png",
+                        "duration": "Mar 2025 – Sep 2026",
+                        "location": "Lahore, Pakistan",
+                        "description": [
+                            "Architected zero-downtime OTA update pipelines using Hot Updater and EAS Update, enabling same-day production hotfixes and cutting average time-to-fix from days to under 2 hours.",
+                            "Led full-lifecycle mobile engineering across multi-platform client projects, integrating strictly typed REST/GraphQL APIs with Zustand state persistence.",
+                            "Profiled Hermes JS engine and optimized Reanimated UI threads to sustain consistent 60 FPS on mid-tier Android devices, reducing frame drops by ~70% on critical screens.",
+                            "Built offline-first caching with MMKV and TanStack Query, reducing redundant API calls by ~40% across core user flows.",
+                            "Established unit and component testing standards with Jest and React Native Testing Library, increasing test coverage from near-zero to ~65% on core modules."
+                        ]
+                    },
+                    {
+                        "title": "Mobile Tech Lead",
+                        "company": "D12 Solutions",
+                        "company_url": "https://d12-solutions.com/",
+                        "logo_path": "d12.png",
+                        "duration": "Feb 2023 – Feb 2025",
+                        "location": "Rahim Yar Khan, Pakistan",
+                        "description": [
+                            "Served as primary technical lead for an 8-engineer mobile team delivering 20+ production React Native applications across booking, retail, and service domains (combined 50k+ downloads).",
+                            "Engineered a modular, typed UI component library and API client package shared across mobile apps and web admin portals, reducing feature delivery cycles by ~30%.",
+                            "Refactored media-heavy screens using FlashList, memoization, and lazy loading, eliminating most frame drops and lowering time-to-interactive by ~35%.",
+                            "Automated CI/CD pipelines with GitHub Actions and EAS Build while enforcing test suites (Jest, React Native Testing Library, Detox), reducing release regressions by ~45%.",
+                            "Mentored junior engineers on architecture, performance, and testing practices while taking on concurrent SitePod contract work in the final months."
+                        ]
+                    },
+                    {
+                        "title": "React Native Developer",
+                        "company": "Teknovation",
+                        "company_url": "https://teknovation.io/",
+                        "logo_path": "teknovation.png",
+                        "duration": "Jul 2022 – Jan 2023",
+                        "location": "Islamabad, Pakistan",
+                        "description": [
+                            "Architected end-to-end mobile applications using Firebase as a full serverless backend (Firestore, Realtime Database, Cloud Functions, and Authentication).",
+                            "Implemented real-time data sync, secure JWT session persistence with automated token refresh, and offline data persistence across core client workflows.",
+                            "Configured Firebase Cloud Messaging (FCM) for targeted push campaigns, dynamic deep-linking, and automated transactional user alerts."
+                        ]
+                    },
+                    {
+                        "title": "React Native Developer",
+                        "company": "Hello World Technologies",
+                        "company_url": "https://helloworldtech.com",
+                        "logo_path": "HW.png",
+                        "duration": "Jan 2020 – Jul 2022",
+                        "location": "Rahim Yar Khan, Pakistan",
+                        "description": [
+                            "Advanced from Mobile Engineering Intern to full-time React Native Developer, shipping 10+ cross-platform apps to the App Store and Google Play with a 4.6+ average user rating.",
+                            "Authored custom native Java and Objective-C module bridges exposing hardware camera access, biometrics, and background geolocation APIs.",
+                            "Engineered modular TypeScript UI primitives and handled REST API integrations for real-time application features."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "degrees": [
+        {
+            "title": "Khwaja Fareed University of Engineering and Information Technology",
+            "subtitle": "Bachelor of Science in Software Engineering",
+            "logo_path": "KFUEIT.png",
+            "alt_name": "KFUEIT",
+            "duration": "",
+            "descriptions": [
+              "Completed rigorous coursework covering Data Structures & Algorithms, Software Architecture, Database Systems, and Mobile Application Development.",
+              "Specialized in full-stack mobile development, integrating cross-platform frontends with scalable Node.js microservices and cloud backends.",
+              "Applied core software engineering principles to build, ship, and deploy production-ready mobile and web applications throughout my degree."
+            ],
+            "website_link": "https://kfueit.edu.pk/"
+          }
+    ],
+    "skills": {
+        "title": "Skills",
+        "subtitle": "Senior React Native Developer | Full Stack Mobile Engineer",
+        "description": "Cross-platform mobile development, MERN stack, and end-to-end product delivery from architecture to App Store deployment.",
+        "header_image_path": "skills.svg",
+        "categories": [
+            {
+                "title": "Mobile & Frontend",
+                "skills": [
+                    {
+                        "name": "React Native",
+                        "iconifyClass": "logos-react"
+                    },
+                    {
+                        "name": "Expo",
+                        "iconifyClass": "vscode-icons:file-type-light-expo"
+                    },
+                    {
+                        "name": "TypeScript",
+                        "iconifyClass": "devicon:typescript"
+                    },
+                    {
+                        "name": "React.js",
+                        "iconifyClass": "logos-react"
+                    },
+                    {
+                        "name": "Next.js",
+                        "iconifyClass": "logos-nextjs"
+                    },
+                    {
+                        "name": "Redux",
+                        "iconifyClass": "logos-redux"
+                    },
+                    {
+                        "name": "Zustand",
+                        "iconifyClass": "simple-icons:zustand"
+                    },
+                    {
+                        "name": "Context API",
+                        "iconifyClass": "logos-react"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "iconifyClass": "logos-tailwindcss-icon"
+                    },
+                    {
+                        "name": "React Navigation",
+                        "iconifyClass": "logos-react"
+                    }
+                ]
+            },
+            {
+                "title": "Backend & Integrations",
+                "skills": [
+                    {
+                        "name": "Node.js",
+                        "iconifyClass": "vscode-icons:file-type-node"
+                    },
+                    {
+                        "name": "NestJS",
+                        "iconifyClass": "logos-nestjs"
+                    },
+                    {
+                        "name": "Express.js",
+                        "iconifyClass": "logos-express"
+                    },
+                    {
+                        "name": "GraphQL",
+                        "iconifyClass": "logos-graphql"
+                    },
+                    {
+                        "name": "REST APIs",
+                        "iconifyClass": "vscode-icons:file-type-light-api"
+                    },
+                    {
+                        "name": "Firebase",
+                        "iconifyClass": "logos-firebase"
+                    },
+                    {
+                        "name": "Supabase",
+                        "iconifyClass": "logos-supabase"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "iconifyClass": "vscode-icons:file-type-mongo"
+                    },
+                    {
+                        "name": "SQL",
+                        "iconifyClass": "vscode-icons:file-type-sql"
+                    },
+                    {
+                        "name": "WebSockets",
+                        "iconifyClass": "logos-webrtc"
+                    },
+                    {
+                        "name": "Stripe",
+                        "iconifyClass": "logos-stripe"
+                    },
+                    {
+                        "name": "In-App Purchases",
+                        "iconifyClass": "icon-park:flash-payment"
+                    },
+                    {
+                        "name": "OpenAI / GenAI",
+                        "iconifyClass": "simple-icons:openai"
+                    },
+                    {
+                        "name": "Clarifai",
+                        "iconifyClass": "carbon:machine-learning"
+                    },
+                    {
+                        "name": "Push Notifications",
+                        "iconifyClass": "mdi:bell-ring"
+                    },
+                    {
+                        "name": "Bluetooth / Smart Devices",
+                        "iconifyClass": "mdi:bluetooth"
+                    }
+                ]
+            },
+            {
+                "title": "Tools & DevOps",
+                "skills": [
+                    {
+                        "name": "AWS",
+                        "iconifyClass": "logos-aws"
+                    },
+                    {
+                        "name": "Vercel",
+                        "iconifyClass": "logos-vercel"
+                    },
+                    {
+                        "name": "Netlify",
+                        "iconifyClass": "logos-netlify"
+                    },
+                    {
+                        "name": "Git",
+                        "iconifyClass": "logos-git-icon"
+                    },
+                    {
+                        "name": "CI/CD",
+                        "iconifyClass": "carbon:deploy"
+                    },
+                    {
+                        "name": "Jest",
+                        "iconifyClass": "logos-jest"
+                    },
+                    {
+                        "name": "Sentry",
+                        "iconifyClass": "logos-sentry"
+                    },
+                    {
+                        "name": "Xcode",
+                        "iconifyClass": "logos-apple-xcode"
+                    },
+                    {
+                        "name": "Android Studio",
+                        "iconifyClass": "logos-android-icon"
+                    },
+                    {
+                        "name": "Jira",
+                        "iconifyClass": "logos-jira"
+                    },
+                    {
+                        "name": "Fastlane",
+                        "iconifyClass": "logos-fastlane"
+                    }
+                ]
+            },
+            {
+                "title": "Other",
+                "skills": [
+                    {
+                        "name": "Performance Optimization",
+                        "iconifyClass": "carbon:meter"
+                    },
+                    {
+                        "name": "Unit / E2E Testing",
+                        "iconifyClass": "logos-jest"
+                    },
+                    {
+                        "name": "App Store & Play Deployment",
+                        "iconifyClass": "mdi:cellphone"
+                    },
+                    {
+                        "name": "Accessibility",
+                        "iconifyClass": "mdi:accessibility"
+                    },
+                    {
+                        "name": "Agile / Scrum",
+                        "iconifyClass": "mdi:view-dashboard"
+                    },
+                    {
+                        "name": "Technical Leadership",
+                        "iconifyClass": "mdi:account-group"
+                    },
+                    {
+                        "name": "Code Review & Mentoring",
+                        "iconifyClass": "mdi:code-braces"
+                    }
+                ]
+            }
+        ]
+    },
+    "projects": [
+        {
+            "id": "56192803",
+            "name": "SwimtoFly - Learn how to Swim",
+            "url": "https://play.google.com/store/apps/details?id=com.swimtofly.android",
+            "description": "A mobile learning platform for SwimtoFly® that provides structured video lessons to help users learn swimming techniques and build confidence in the water.",
+            "languages": [
+                {
+                    "name": "React | React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "JavaScript",
+                    "iconifyClass": "logos-javascript"
+                },
+                {
+                    "name": "Firebase",
+                    "iconifyClass": "logos-webrtc"
+                },
+                {
+                    "name": "In-App Purchases",
+                    "iconifyClass": "icon-park:flash-payment"
+                }
+            ]
+        },
+        {
+            "id": "84729106",
+            "name": "Nomadz",
+            "url": "https://apps.apple.com/pk/app/nomadz/id6448633205",
+            "description": "Nomadz stands as the ultimate marketplace crafted by and for outdoor enthusiasts, delivering a user-friendly platform for nature lovers.",
+            "languages": [
+                {
+                    "name": "TypeScript",
+                    "iconifyClass": "devicon:typescript"
+                },
+                {
+                    "name": "React & React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "Node JS",
+                    "iconifyClass": "vscode-icons:file-type-node"
+                },
+                {
+                    "name": "Firebase",
+                    "iconifyClass": "logos-firebase"
+                },
+                {
+                    "name": "PlatsPay",
+                    "iconifyClass": "icon-park:flash-payment"
+                }
+            ]
+        },
+        {
+            "id": "47281936",
+            "name": "Plative",
+            "url": "https://play.google.com/store/apps/details?id=com.Plative",
+            "description": "Communicate with other drivers in traffic through a mobile platform built for real-time on-the-road interaction.",
+            "languages": [
+                {
+                    "name": "React & React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "TypeScript",
+                    "iconifyClass": "devicon:typescript"
+                },
+                {
+                    "name": "Firebase",
+                    "iconifyClass": "logos-firebase"
+                }
+            ]
+        },
+        {
+            "id": "39281547",
+            "name": "Aheev Performance",
+            "url": "https://apps.apple.com/us/app/acheev-performance-app/id1636595346",
+            "description": "Acheev empowers athletes with cutting-edge performance tracking and personalized training insights, optimizing their journey to peak fitness.",
+            "languages": [
+                {
+                    "name": "GraphQL",
+                    "iconifyClass": "logos-graphql"
+                },
+                {
+                    "name": "React & React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "Node JS",
+                    "iconifyClass": "vscode-icons:file-type-node"
+                },
+                {
+                    "name": "Firebase",
+                    "iconifyClass": "logos-firebase"
+                },
+                {
+                    "name": "PostgreSQL",
+                    "iconifyClass": "logos:postgresql"
+                }
+            ]
+        },
+        {
+            "id": "73918426",
+            "name": "Interveen: Stay Focused",
+            "url": "https://play.google.com/store/apps/details?id=com.interveen.app",
+            "description": "A focus app that pauses adult content and brings your goal forward so you stay with what matters.",
+            "languages": [
+                {
+                    "name": "Kotlin",
+                    "iconifyClass": "devicon:kotlin"
+                },
+                {
+                    "name": "Swift",
+                    "iconifyClass": "devicon:swift"
+                }
+            ]
+        },
+        {
+            "id": "61847392",
+            "name": "TAS Dating",
+            "url": "https://play.google.com/store/apps/details?id=com.tasdatingkit",
+            "description": "Whether you're seeking a casual fling or a long-term commitment, TAS Dating caters to all relationship types. Simply create a profile and let our system do the rest.",
+            "languages": [
+                {
+                    "name": "React | React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "JavaScript",
+                    "iconifyClass": "devicon:typescript"
+                },
+                {
+                    "name": "Firebase",
+                    "iconifyClass": "logos-webrtc"
+                },
+                {
+                    "name": "HTML5",
+                    "iconifyClass": "logos-firebase"
+                }
+            ]
+        },
+        {
+            "id": "27463918",
+            "name": "Mangia Rewards | Dining Offers",
+            "url": "https://apps.apple.com/us/app/mangia-rewards-dining-offers/id1659785521",
+            "description": "Introducing Mangia Rewards: Explore local restaurants and get a free drink, appetizer, or dessert with every entree purchase, 7 days a week.",
+            "languages": [
+                {
+                    "name": "React & React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "Firebase",
+                    "iconifyClass": "logos-firebase"
+                },
+                {
+                    "name": "JavaScript",
+                    "iconifyClass": "devicon:javascript"
+                },
+                {
+                    "name": "Stripe",
+                    "iconifyClass": "logos-stripe"
+                }
+            ]
+        },
+        {
+            "id": "93518264",
+            "name": "Winelikes",
+            "url": "https://apps.apple.com/us/app/winelikes/id1604508326",
+            "description": "An engaging wine app that will change the way you drink wine. Whether you are about to take your first sip, or on the road to becoming a sommelier, Winelikes is for you.",
+            "languages": [
+                {
+                    "name": "React & React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "Laravel",
+                    "iconifyClass": "logos-laravel"
+                },
+                {
+                    "name": "Firebase",
+                    "iconifyClass": "logos-firebase"
+                },
+                {
+                    "name": "TypeScript",
+                    "iconifyClass": "devicon:typescript"
+                },
+                {
+                    "name": "Stripe",
+                    "iconifyClass": "logos-stripe"
+                }
+            ]
+        },
+        {
+            "id": "28473619",
+            "name": "Pehchaan Balochistan App",
+            "url": "https://play.google.com/store/apps/details?id=org.psca.pehchaanbalochistan",
+            "description": "A service Provider App Where people can become partners to provides services as well get services, people can interact forums, with subscriptions",
+            "languages": [
+                {
+                    "name": "Android",
+                    "iconifyClass": "logos-android-icon"
+                },
+                {
+                    "name": "Java",
+                    "iconifyClass": "logos-java"
+                },
+                {
+                    "name": "OneSignal",
+                    "iconifyClass": "logos-onesignal"
+                }
+            ]
+        },
+        {
+            "id": "48291635",
+            "name": "ICR - IT Centre RYK",
+            "url": "https://play.google.com/store/apps/details?id=com.itcentre",
+            "description": "ICR provides a cutting-edge learning environment, offering hands-on experience and skills development for success in the evolving IT industry.",
+            "languages": [
+                {
+                    "name": "JavaScript",
+                    "iconifyClass": "logos-javascript"
+                },
+                {
+                    "name": "Laravel",
+                    "iconifyClass": "logos-laravel"
+                },
+                {
+                    "name": "React & React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "OneSignal",
+                    "iconifyClass": "logos-onesignal"
+                }
+            ]
+        },
+        {
+            "id": "46180598",
+            "name": "Roskalava",
+            "url": "https://play.google.com/store/apps/details?id=com.roskalava.app",
+            "description": "Finland's 100% social charity platform donate items, find treasures, and give belongings a new life.",
+            "languages": [
+                {
+                    "name": "React & React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "TypeScript",
+                    "iconifyClass": "devicon:typescript"
+                },
+                {
+                    "name": "Node JS",
+                    "iconifyClass": "vscode-icons:file-type-node"
+                }
+            ]
+        },
+        {
+            "id": "71938452",
+            "name": "Barcelona Guide",
+            "url": "https://play.google.com/store/apps/details?id=com.cityguide.barcelonacityguideapp",
+            "description": "Unlock Barcelona's treasures with our comprehensive travel guide app. Explore attractions, historic sights, and travel details seamlessly in one place.",
+            "languages": [
+                {
+                    "name": "React & React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "JavaScript",
+                    "iconifyClass": "logos-javascript"
+                },
+                {
+                    "name": "PHP",
+                    "iconifyClass": "logos:php-alt"
+                },
+                {
+                    "name": "Firebase",
+                    "iconifyClass": "logos-firebase"
+                }
+            ]
+        },
+        {
+            "id": "15384729",
+            "name": "CRBO Inc.",
+            "url": "https://apps.apple.com/us/app/crbo/id1642157751",
+            "description": "A taxi App where people can rent thier cars with drivers for short and Long Trips. If Sign Up as a User, people can use this Uber like service",
+            "languages": [
+                {
+                    "name": "React & React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "Firebase",
+                    "iconifyClass": "logos-firebase"
+                },
+                {
+                    "name": "JavaScript",
+                    "iconifyClass": "logos-javascript"
+                },
+                {
+                    "name": "Stripe",
+                    "iconifyClass": "logos-stripe"
+                }
+            ]
+        },
+        {
+            "id": "82639174",
+            "name": "Quran Urdu Audio Translation",
+            "url": "https://play.google.com/store/apps/details?id=com.quran_only_urdu_audio",
+            "description": "Your Gateway to Luxury Bags and Accessories Step into a world of opulence with LUXURIAN, the premier app designed exclusively for those who appreciate luxury.",
+            "languages": [
+                {
+                    "name": "React & React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "Codeigniter",
+                    "iconifyClass": "logos:codeigniter-icon"
+                },
+                {
+                    "name": "Audio Play",
+                    "iconifyClass": "icon-park:audio-file"
+                }
+            ]
+        },
+        {
+            "id": "39162840",
+            "name": "Luxurian KW",
+            "url": "https://apps.apple.com/pk/app/luxurian-kw/id6449488950",
+            "description": "Your Gateway to Luxury Bags and Accessories Step into a world of opulence with LUXURIAN, the premier app designed exclusively for those who appreciate luxury.",
+            "languages": [
+                {
+                    "name": "React & React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "Codeigniter",
+                    "iconifyClass": "logos:codeigniter-icon"
+                },
+                {
+                    "name": "OneSignal",
+                    "iconifyClass": "logos-onesignal"
+                }
+            ]
+        },
+        {
+            "id": "64829173",
+            "name": "Dialed Resistance",
+            "url": "https://play.google.com/store/apps/details?id=com.stationaryblenew",
+            "description": "An IoT-powered fitness app that connects with a resistance monitor to bring smart resistance tracking to standard spin bikes.",
+            "languages": [
+                {
+                    "name": "Android",
+                    "iconifyClass": "logos-android-icon"
+                },
+                {
+                    "name": "Java",
+                    "iconifyClass": "logos-java"
+                },
+                {
+                    "name": "OneSignal",
+                    "iconifyClass": "logos-onesignal"
+                },
+                {
+                    "name": "In-App Purchases",
+                    "iconifyClass": "icon-park:flash-payment"
+                }
+            ]
+        },
+        {
+            "id": "58392017",
+            "name": "Tern Rewards",
+            "url": "https://play.google.com/store/apps/details?id=com.ternrewards",
+            "description": "Tern rewards tenants for rent, renewals, and offers making renting more rewarding for residents and property managers.",
+            "languages": [
+                {
+                    "name": "React & React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "TypeScript",
+                    "iconifyClass": "devicon:typescript"
+                },
+                {
+                    "name": "Node JS",
+                    "iconifyClass": "vscode-icons:file-type-node"
+                },
+                {
+                    "name": "Stripe",
+                    "iconifyClass": "logos-stripe"
+                }
+            ]
+        },
+        {
+            "id": "70514932",
+            "name": "FMHero",
+            "url": "https://apps.apple.com/us/app/fmhero/id1570918942",
+            "description": "Mobile HVAC documentation tool built by techs — cut paperwork time in half, stay compliant, and keep service records for life.",
+            "languages": [
+                {
+                    "name": "React & React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "TypeScript",
+                    "iconifyClass": "devicon:typescript"
+                },
+                {
+                    "name": "Firebase",
+                    "iconifyClass": "logos-firebase"
+                }
+            ]
+        },
+        {
+            "id": "69403821",
+            "name": "PlanLocal",
+            "url": "https://play.google.com/store/apps/details?id=com.EventZone",
+            "description": "Discover upcoming local events and publish plans in your area a community platform to find and share what's happening nearby.",
+            "languages": [
+                {
+                    "name": "React & React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "JavaScript",
+                    "iconifyClass": "logos-javascript"
+                },
+                {
+                    "name": "Firebase",
+                    "iconifyClass": "logos-firebase"
+                }
+            ]
+        },
+        {
+            "id": "81625043",
+            "name": "Glowvia: AI Glow Up",
+            "url": "https://apps.apple.com/us/app/glowvia/id6760437185",
+            "description": "AI glow-up coach with a personalized Glow Score, 30-day plans, and tools to optimize skin, face, hair, and style.",
+            "languages": [
+                {
+                    "name": "React & React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "TypeScript",
+                    "iconifyClass": "devicon:typescript"
+                },
+                {
+                    "name": "AI / ML",
+                    "iconifyClass": "mdi:brain"
+                }
+            ]
+        },
+        {
+            "id": "92736154",
+            "name": "Goal'in",
+            "url": "https://play.google.com/store/apps/details?id=com.magrillefoot",
+            "description": "100% free sports predictions app with challenges, rankings, and rewards for football fans.",
+            "languages": [
+                {
+                    "name": "React & React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "JavaScript",
+                    "iconifyClass": "logos-javascript"
+                },
+                {
+                    "name": "Firebase",
+                    "iconifyClass": "logos-firebase"
+                }
+            ]
+        },
+        {
+            "id": "13847265",
+            "name": "Qalbi: Soulmate & Healing",
+            "url": "https://apps.apple.com/us/app/qalbi-soulmate-healing/id6758221871",
+            "description": "A space for emotional reflection, self-discovery, and meaningful connection with soulmate compatibility insights.",
+            "languages": [
+                {
+                    "name": "React & React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "TypeScript",
+                    "iconifyClass": "devicon:typescript"
+                },
+                {
+                    "name": "Firebase",
+                    "iconifyClass": "logos-firebase"
+                }
+            ]
+        },
+        {
+            "id": "24958376",
+            "name": "ClearPast: AI Photo Enhancer",
+            "url": "https://apps.apple.com/ye/app/clearpast-ai-photo-enhancer/id6480299547",
+            "description": "Turn blurry, low-quality photos into stunning high-resolution images instantly using powerful AI enhancement.",
+            "languages": [
+                {
+                    "name": "React & React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "TypeScript",
+                    "iconifyClass": "devicon:typescript"
+                },
+                {
+                    "name": "AI / ML",
+                    "iconifyClass": "mdi:brain"
+                }
+            ]
+        },
+        {
+            "id": "3dportfolio01",
+            "name": "3D Portfolio",
+            "url": "https://3d-portfolio.hamzazafar.online/",
+            "description": "An immersive 3D personal portfolio with interactive spatial navigation — explore my work, skills, and experience in a cinematic WebGL environment.",
+            "languages": [
+                {
+                    "name": "Three.js",
+                    "iconifyClass": "simple-icons:threedotjs"
+                },
+                {
+                    "name": "React",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "TypeScript",
+                    "iconifyClass": "devicon:typescript"
+                },
+                {
+                    "name": "WebGL",
+                    "iconifyClass": "mdi:cube-outline"
+                }
+            ]
+        },
+        {
+            "id": "57291609",
+            "name": "1Earth",
+            "url": "https://www.1earth.site",
+            "description": "Charity platform restoring dignity to vulnerable elders through shelter, healthcare, and compassionate support powered by monthly and one-time giving.",
+            "languages": [
+                {
+                    "name": "Next.js",
+                    "iconifyClass": "logos:nextjs-icon"
+                },
+                {
+                    "name": "TypeScript",
+                    "iconifyClass": "devicon:typescript"
+                },
+                {
+                    "name": "Stripe",
+                    "iconifyClass": "logos-stripe"
+                }
+            ]
+        },
+        {
+            "id": "80524931",
+            "name": "D12 Solutions",
+            "url": "https://d12-solutions.com/",
+            "description": "Software development company website building tomorrow's software today with modern web and mobile solutions.",
+            "languages": [
+                {
+                    "name": "Next.js",
+                    "iconifyClass": "logos:nextjs-icon"
+                },
+                {
+                    "name": "TypeScript",
+                    "iconifyClass": "devicon:typescript"
+                },
+                {
+                    "name": "React",
+                    "iconifyClass": "logos-react"
+                }
+            ]
+        },
+        {
+            "id": "68302710",
+            "name": "Italian Organic",
+            "url": "https://www.italianorganic.store/",
+            "description": "E-commerce storefront for premium organic products sourced from Italy, with a clean shopping experience and WhatsApp ordering support.",
+            "languages": [
+                {
+                    "name": "Next.js",
+                    "iconifyClass": "logos:nextjs-icon"
+                },
+                {
+                    "name": "TypeScript",
+                    "iconifyClass": "devicon:typescript"
+                },
+                {
+                    "name": "E-commerce",
+                    "iconifyClass": "mdi:cart-outline"
+                }
+            ]
+        },
+        {
+            "id": "79413821",
+            "name": "Roskalava Marketplace",
+            "url": "https://www.roskalava.net/",
+            "description": "Finland's social charity marketplace to buy, sell, rent, and exchange goods for free giving unused items a second life.",
+            "languages": [
+                {
+                    "name": "React",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "Node JS",
+                    "iconifyClass": "vscode-icons:file-type-node"
+                },
+                {
+                    "name": "WordPress",
+                    "iconifyClass": "logos:wordpress-icon"
+                }
+            ]
+        },
+        {
+            "id": "81936472",
+            "name": "Kohinoor Bazar",
+            "url": "https://play.google.com/store/apps/details?id=com.rsdtech.kohinoorbazar",
+            "description": "A digital presence for Kohinoor Bazar, an international grocery store in Budapest offering authentic South Asian, Middle Eastern, and global food products.",
+            "languages": [
+                {
+                    "name": "React & React Native",
+                    "iconifyClass": "logos-react"
+                },
+                {
+                    "name": "TypeScript",
+                    "iconifyClass": "devicon:typescript"
+                },
+                {
+                    "name": "Firebase",
+                    "iconifyClass": "logos-firebase"
+                },
+                {
+                    "name": "Node JS",
+                    "iconifyClass": "vscode-icons:file-type-node"
+                }
+            ]
+        },
+        {
+            "id": "93648251",
+            "name": "UI/UX",
+            "url": "https://drive.google.com/file/d/1pOwqpavYMIDjDkzOk9duDX1EBtY-VO-L/view?usp=sharing",
+            "description": "Designed Many UIs for Mobile as well as web Applications. Designed UX for Games and Flyers",
+            "languages": [
+                {
+                    "name": "Figma",
+                    "iconifyClass": "logos-figma"
+                }
+            ]
+        }
+    ],
+    "testimonials": {
+        "title": "Testimonials",
+        "subtitle": "What clients say about working together.",
+        "clients": [
+            {
+                "id": "urbanresonance",
+                "name": "urbanresonance",
+                "countryCode": "ES",
+                "country": "Spain",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "text": "Always a pleasure working with Hamza. Everything he has done for me has always been perfect. Fast friendly service with perfect results, highly recommended."
+                    }
+                ]
+            },
+            {
+                "id": "brendanciccone",
+                "name": "brendanciccone",
+                "countryCode": "US",
+                "country": "United States",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "text": "Hamza built a flawless React Native mobile app 1:1 to the designs I created in Figma, with all the requested APIs I wanted. On top of building exactly what I envisioned, he thought ahead of me and added some tasteful touches to the app that only made it even better, from animations to action sheets to toasts. He was accommodating to changes, understood all requirements of the project, and even suggested a few things that definitely saved us from several headaches. I will definitely hire him again in the future, and if you're in the market to have someone work on or create a React Native mobile app, this is THE developer to hire. Code was also really clean and bug-free."
+                    },
+                    {
+                        "rating": 5,
+                        "text": "Once again, absolutely phenomenal work from Hamza. Great communication, quick turnaround, and clean code. Hamza does a great job on every React Native job I've thrown to him to help me with - this time reworking an entire app into a different niche. Will hire again!"
+                    }
+                ]
+            },
+            {
+                "id": "gillinger",
+                "name": "gillinger",
+                "countryCode": "SE",
+                "country": "Sweden",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "text": "Hamza Dev truly impressed me with his EXCEEDING expectations in mobile app development. His attention to detail and professionalism were outstanding, making our collaboration smooth and efficient. Working with him was a pleasure, thanks to his prompt delivery and excellent communication skills."
+                    }
+                ]
+            },
+            {
+                "id": "leonard1333",
+                "name": "leonard1333",
+                "countryCode": "DE",
+                "country": "Germany",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "text": "Thanks Hamza :) He fixed a Bug for me which I couldnt fix myself for 3 Days. He did found a good solution within hours."
+                    }
+                ]
+            },
+            {
+                "id": "ermirlatifi",
+                "name": "ermirlatifi",
+                "countryCode": "MK",
+                "country": "North Macedonia",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "text": "Excellent work! Hamza quickly solved my problem with outstanding expertise. Highly responsive and delivered everything on time. Highly recommend!"
+                    }
+                ]
+            },
+            {
+                "id": "michaelfisch313",
+                "name": "michaelfisch313",
+                "countryCode": "DE",
+                "country": "Germany",
+                "reviews": [
+                    {
+                        "rating": 4.7,
+                        "text": "I am extremely satisfied with the work delivered by Hamza. The app was developed and delivered exactly as per the agreed timeline, and all requested changes were implemented seamlessly. Overall, outstanding work! I look forward to working with them on future projects."
+                    }
+                ]
+            },
+            {
+                "id": "mara_lifanova",
+                "name": "mara_lifanova",
+                "countryCode": "BY",
+                "country": "Belarus",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "text": "Hamza Dev did an OUTSTANDING job with my mobile app maintenance! His professionalism and deep understanding made everything smooth and efficient. Highly recommend working with him!"
+                    }
+                ]
+            },
+            {
+                "id": "ajfelix1",
+                "name": "ajfelix1",
+                "countryCode": "US",
+                "country": "United States",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "text": "Never disappoints!"
+                    }
+                ]
+            },
+            {
+                "id": "kevin_dv",
+                "name": "kevin_dv",
+                "countryCode": "IN",
+                "country": "India",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "text": "Amazing work, will definitely hire him again. Don't think hire him, you won't regret."
+                    }
+                ]
+            },
+            {
+                "id": "oto2022",
+                "name": "oto2022",
+                "countryCode": "DE",
+                "country": "Germany",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "text": "I had a fantastic experience with this developer. Not only did he deliver my project quickly and professionally, but he went above and beyond my expectations. His communication was always clear and friendly, and he really understood what I needed. He effortlessly implemented even complex requirements and suggested creative solutions. I am more than satisfied with the result and will definitely use him again for future projects. An absolute recommendation!"
+                    }
+                ]
+            },
+            {
+                "id": "alexpaczeika",
+                "name": "alexpaczeika",
+                "countryCode": "RO",
+                "country": "Romania",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "text": "Hamza Dev did an AMAZING job with my mobile app development. The attention to detail and professionalism resulted in a flawless, bug-free product. Working with Hamza was a breeze, thanks to his politeness, timely delivery, and excellent cooperation!"
+                    }
+                ]
+            },
+            {
+                "id": "lorie_nelson",
+                "name": "lorie_nelson",
+                "countryCode": "US",
+                "country": "United States",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "text": "I don't know why this developer has 4.9 stars. He should have 5.0 1000%. Fluid in English, fixes bugs instantly, goes above and beyond, understands coding issues very clearly, is very precise when issuing a fix, first developer that impressed me on Fiverr and I've worked with several. He's my new software developer and I already trust his expertise in anything I could throw at him. Will order from him again and again."
+                    }
+                ]
+            },
+            {
+                "id": "larryb01",
+                "name": "larryb01",
+                "countryCode": "GB",
+                "country": "United Kingdom",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "text": "Our software company has worked with Hamza several times to build, deploy and update/maintain our React Native android and IoS mobile apps, which are integrated with our cloud application. Hamza works quickly and seamlessly with our web development team and I have no hesitation in recommending Hamza."
+                    }
+                ]
+            },
+            {
+                "id": "rizzy99",
+                "name": "rizzy99",
+                "countryCode": "GB",
+                "country": "United Kingdom",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "text": "Hamza Dev did an outstanding job on our mobile app project! The work was professional, well-documented, and bug-free. His proactive communication and dedication to going above and beyond made the collaboration seamless and enjoyable. I look forward to working with him again."
+                    }
+                ]
+            },
+            {
+                "id": "mohammadm4000",
+                "name": "mohammadm4000",
+                "countryCode": "DK",
+                "country": "Denmark",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "text": "I recently ran into some trouble with two crucial apps we use for our business, and honestly, I was pretty stressed about it. That's when I found Hamza on Fiverr. Right from the start, Hamza was a lifesaver. During a Zoom call, he walked me through the fixes with such ease and clarity, it was clear he really knows his stuff when it comes to app troubles. What really stood out to me was how patient and understanding he was. He didn't just rush through the fixes; he made sure I understood what went wrong and how we were fixing it. He even shared some great tips on how to keep things running smoothly going forward. Thanks to Hamza, not only are our apps back in business, but I've also learned a lot more about how to manage them better. He's genuinely a great guy to work with, and I couldn't recommend him enough for anyone in a tech bind!"
+                    }
+                ]
+            },
+            {
+                "id": "richard2022",
+                "name": "richard2022",
+                "countryCode": "MA",
+                "country": "Morocco",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "text": "Third project with Hamza and same quality."
+                    }
+                ]
+            },
+            {
+                "id": "narek_evn",
+                "name": "narek_evn",
+                "countryCode": "DE",
+                "country": "Germany",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "text": "Hamza provided outstanding service, delivering exceptional results with lightning speed. His professionalism and efficiency ensured clear communication and flawless execution of my requirements. Despite the quick turnaround, there were no compromises on quality. Working with Hamza was seamless and enjoyable. Highly recommended! Thank you, Hamza!"
+                    }
+                ]
+            },
+            {
+                "id": "kristopherschae",
+                "name": "kristopherschae",
+                "countryCode": "US",
+                "country": "United States",
+                "reviews": [
+                    {
+                        "rating": 5,
+                        "text": "Hamza one again delivered an excellent product in a close turn around time. I appreciate working with him immensely."
+                    }
+                ]
+            }
+        ]
+    },
+    "socialMediaLinks": {
+        "github": "https://github.com/rexspare",
+        "linkedin": "https://www.linkedin.com/in/hamzazafarrc/",
+        "gmail": "hamzazafarrc@gmail.com",
+        "gitlab": "https://gitlab.com/rexspare",
+        "facebook": "https://www.facebook.com/hamzazafarrc",
+        "twitter": "https://twitter.com/rexspare",
+        "instagram": "https://www.instagram.com/alsohamzah/",
+        "whatsapp": "https://wa.me/+923060275992",
+        "telegram": "https://t.me/+923497418141"
+    }
+}
