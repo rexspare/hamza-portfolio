@@ -1,66 +1,78 @@
-import type { Metadata } from "next";
-import { IBM_Plex_Sans, JetBrains_Mono, Syne } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import { Bricolage_Grotesque, JetBrains_Mono, Onest } from "next/font/google";
+import { site } from "@/content/site";
+import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
+import { RevealObserver } from "@/components/reveal-observer";
 import "./globals.css";
 
-const syne = Syne({
-  variable: "--font-syne",
+const display = Bricolage_Grotesque({
   subsets: ["latin"],
-  weight: ["500", "600", "700", "800"],
+  variable: "--font-bricolage",
+  axes: ["opsz"],
+  display: "swap",
 });
 
-const plexSans = IBM_Plex_Sans({
-  variable: "--font-plex-sans",
+const sans = Onest({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
+  variable: "--font-onest",
+  display: "swap",
 });
 
-const jetbrainsMono = JetBrains_Mono({
+const mono = JetBrains_Mono({
+  subsets: ["latin"],
   variable: "--font-jetbrains",
-  subsets: ["latin"],
   weight: ["400", "500"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://hamzazafar.online"),
+  metadataBase: new URL(site.url),
   title: {
-    default: "Hamza Zafar | Senior React Native Developer",
-    template: "%s | Hamza Zafar",
+    default: `${site.name} · ${site.title}, ${site.specialty}`,
+    template: `%s · ${site.name}`,
   },
-  description:
-    "Senior React Native Developer & Full Stack Mobile Engineer. 6+ years building iOS and Android apps with React Native, TypeScript, and Node.js. 50+ production apps shipped.",
-  keywords: [
-    "React Native developer",
-    "mobile app developer",
-    "iOS Android developer",
-    "TypeScript",
-    "Node.js",
-    "Full Stack Mobile Engineer",
-    "cross-platform apps",
-    "React Native portfolio",
-  ],
+  description: site.description,
+  authors: [{ name: site.name, url: site.url }],
+  alternates: { canonical: "/" },
   openGraph: {
-    title: "Hamza Zafar | Senior React Native Developer",
-    description:
-      "Senior React Native Developer & Full Stack Mobile Engineer. 6+ years building iOS and Android apps. 50+ production apps shipped.",
-    url: "https://hamzazafar.online",
-    siteName: "Hamza Zafar",
-    locale: "en_US",
     type: "website",
+    url: site.url,
+    siteName: site.name,
+    title: `${site.name} · ${site.title}, ${site.specialty}`,
+    description: site.description,
+    locale: "en_US",
   },
+  twitter: { card: "summary_large_image" },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f5f3ee" },
+    { media: "(prefers-color-scheme: dark)", color: "#131211" },
+  ],
+};
+
+/** Runs before paint: applies the saved theme (or the OS theme) and flags JS for reveal animations. */
+const themeScript = `(function(){try{var d=document.documentElement;d.classList.add('js');var t=localStorage.getItem('theme');if(t!=='light'&&t!=='dark'){t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}d.dataset.theme=t}catch(e){}})()`;
+
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${syne.variable} ${plexSans.variable} ${jetbrainsMono.variable} antialiased`}
-        suppressHydrationWarning
-      >
-        {children}
+    <html lang="en" className={`${display.variable} ${sans.variable} ${mono.variable}`} suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+      </head>
+      <body className="bg-paper text-ink">
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-ink focus:px-4 focus:py-2 focus:text-paper"
+        >
+          Skip to content
+        </a>
+        <SiteHeader />
+        <main id="main">{children}</main>
+        <SiteFooter />
+        <RevealObserver />
       </body>
     </html>
   );

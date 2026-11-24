@@ -1,0 +1,1032 @@
+{
+  "generatedAt": "2026-11-24",
+  "apps": {
+    "acheev": {
+      "listed": true,
+      "storeName": "ACHEEV Performance App",
+      "developer": "Suspensionmats Corporation",
+      "icon": {
+        "src": "/apps/acheev/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/acheev/shot-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/acheev/shot-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/acheev/shot-3.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/acheev/shot-4.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/acheev/shot-5.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/acheev/shot-6.webp",
+          "width": 640,
+          "height": 1138
+        }
+      ],
+      "appStore": {
+        "rating": null,
+        "ratingCount": 0,
+        "listed": true
+      }
+    },
+    "barcelona-guide": {
+      "listed": true,
+      "storeName": "Barcelona City & Travel Guide",
+      "developer": "City Guide Apps",
+      "icon": {
+        "src": "/apps/barcelona-guide/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/barcelona-guide/shot-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/barcelona-guide/shot-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/barcelona-guide/shot-3.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/barcelona-guide/shot-4.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/barcelona-guide/shot-5.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/barcelona-guide/shot-6.webp",
+          "width": 640,
+          "height": 1138
+        }
+      ],
+      "playStore": {
+        "installs": "1,000+",
+        "minInstalls": 1000,
+        "rating": null,
+        "ratingCount": null,
+        "listed": true
+      }
+    },
+    "clearpast": {
+      "listed": true,
+      "storeName": "Restore Old Photos: ClearPast",
+      "developer": "BaruzoTech Private Limited",
+      "icon": {
+        "src": "/apps/clearpast/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/clearpast/shot-1.webp",
+          "width": 640,
+          "height": 1390
+        },
+        {
+          "src": "/apps/clearpast/shot-2.webp",
+          "width": 640,
+          "height": 1390
+        },
+        {
+          "src": "/apps/clearpast/shot-3.webp",
+          "width": 640,
+          "height": 1390
+        },
+        {
+          "src": "/apps/clearpast/shot-4.webp",
+          "width": 640,
+          "height": 1390
+        },
+        {
+          "src": "/apps/clearpast/shot-5.webp",
+          "width": 640,
+          "height": 1390
+        },
+        {
+          "src": "/apps/clearpast/shot-6.webp",
+          "width": 640,
+          "height": 1390
+        }
+      ],
+      "appStore": {
+        "rating": null,
+        "ratingCount": 0,
+        "listed": true
+      }
+    },
+    "crbo": {
+      "listed": false,
+      "storeName": null,
+      "developer": null,
+      "icon": null,
+      "screenshots": [],
+      "appStore": {
+        "listed": false
+      }
+    },
+    "dialed-resistance": {
+      "listed": true,
+      "storeName": "Dialed Resistance",
+      "developer": "Dialed Resistance",
+      "icon": {
+        "src": "/apps/dialed-resistance/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/dialed-resistance/shot-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/dialed-resistance/shot-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/dialed-resistance/shot-3.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/dialed-resistance/shot-4.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/dialed-resistance/shot-5.webp",
+          "width": 540,
+          "height": 720
+        }
+      ],
+      "playStore": {
+        "installs": "5+",
+        "minInstalls": 5,
+        "rating": null,
+        "ratingCount": null,
+        "listed": true
+      }
+    },
+    "fmhero": {
+      "listed": true,
+      "storeName": "FMHero",
+      "developer": "FMHERO, LLC",
+      "icon": {
+        "src": "/apps/fmhero/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/fmhero/shot-1.webp",
+          "width": 640,
+          "height": 1387
+        },
+        {
+          "src": "/apps/fmhero/shot-2.webp",
+          "width": 640,
+          "height": 1387
+        },
+        {
+          "src": "/apps/fmhero/shot-3.webp",
+          "width": 640,
+          "height": 1387
+        },
+        {
+          "src": "/apps/fmhero/shot-4.webp",
+          "width": 640,
+          "height": 1387
+        },
+        {
+          "src": "/apps/fmhero/shot-5.webp",
+          "width": 640,
+          "height": 1387
+        },
+        {
+          "src": "/apps/fmhero/shot-6.webp",
+          "width": 640,
+          "height": 1387
+        }
+      ],
+      "appStore": {
+        "rating": 4.7,
+        "ratingCount": 14,
+        "listed": true
+      }
+    },
+    "glowvia": {
+      "listed": true,
+      "storeName": "Glowvia: AI Glow Up",
+      "developer": "MINDRACER LIMITED",
+      "icon": {
+        "src": "/apps/glowvia/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/glowvia/shot-1.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/glowvia/shot-2.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/glowvia/shot-3.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/glowvia/shot-4.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/glowvia/shot-5.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/glowvia/shot-6.webp",
+          "width": 640,
+          "height": 1391
+        }
+      ],
+      "appStore": {
+        "rating": 4.4,
+        "ratingCount": 41,
+        "listed": true
+      }
+    },
+    "goalin": {
+      "listed": true,
+      "storeName": "Goal’in – Jeu pronos sportifs",
+      "developer": "Moulinsar App",
+      "icon": {
+        "src": "/apps/goalin/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/goalin/shot-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/goalin/shot-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/goalin/shot-3.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/goalin/shot-4.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/goalin/shot-5.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/goalin/shot-6.webp",
+          "width": 640,
+          "height": 1138
+        }
+      ],
+      "playStore": {
+        "installs": "1,000+",
+        "minInstalls": 1000,
+        "rating": null,
+        "ratingCount": null,
+        "listed": true
+      }
+    },
+    "icr-it-centre": {
+      "listed": true,
+      "storeName": "ICR - IT Centre RYK",
+      "developer": "Hello World Technologies",
+      "icon": {
+        "src": "/apps/icr-it-centre/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/icr-it-centre/shot-1.webp",
+          "width": 640,
+          "height": 1384
+        },
+        {
+          "src": "/apps/icr-it-centre/shot-2.webp",
+          "width": 640,
+          "height": 1384
+        },
+        {
+          "src": "/apps/icr-it-centre/shot-3.webp",
+          "width": 640,
+          "height": 1384
+        },
+        {
+          "src": "/apps/icr-it-centre/shot-4.webp",
+          "width": 640,
+          "height": 1384
+        },
+        {
+          "src": "/apps/icr-it-centre/shot-5.webp",
+          "width": 640,
+          "height": 1384
+        },
+        {
+          "src": "/apps/icr-it-centre/shot-6.webp",
+          "width": 640,
+          "height": 1384
+        }
+      ],
+      "playStore": {
+        "installs": "1,000+",
+        "minInstalls": 1000,
+        "rating": null,
+        "ratingCount": null,
+        "listed": true
+      }
+    },
+    "interveen": {
+      "listed": true,
+      "storeName": "Interveen: Stay Focused",
+      "developer": "solto",
+      "icon": {
+        "src": "/apps/interveen/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/interveen/shot-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/interveen/shot-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/interveen/shot-3.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/interveen/shot-4.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/interveen/shot-5.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/interveen/shot-6.webp",
+          "width": 640,
+          "height": 1138
+        }
+      ],
+      "playStore": {
+        "installs": "5+",
+        "minInstalls": 5,
+        "rating": null,
+        "ratingCount": null,
+        "listed": true
+      }
+    },
+    "kohinoor-bazar": {
+      "listed": true,
+      "storeName": "Kohinoor Bazar",
+      "developer": "Kohinoor Bazar",
+      "icon": {
+        "src": "/apps/kohinoor-bazar/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/kohinoor-bazar/shot-1.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/apps/kohinoor-bazar/shot-2.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/apps/kohinoor-bazar/shot-3.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/apps/kohinoor-bazar/shot-4.webp",
+          "width": 640,
+          "height": 1280
+        }
+      ],
+      "playStore": {
+        "installs": "100+",
+        "minInstalls": 100,
+        "rating": null,
+        "ratingCount": null,
+        "listed": true
+      }
+    },
+    "luxurian-kw": {
+      "listed": true,
+      "storeName": "Luxurian KW",
+      "developer": "Ebraheem Alkandari",
+      "icon": {
+        "src": "/apps/luxurian-kw/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/luxurian-kw/shot-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/luxurian-kw/shot-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/luxurian-kw/shot-3.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/luxurian-kw/shot-4.webp",
+          "width": 640,
+          "height": 1138
+        }
+      ],
+      "appStore": {
+        "rating": null,
+        "ratingCount": 0,
+        "listed": true
+      }
+    },
+    "mangia-rewards": {
+      "listed": true,
+      "storeName": "Mangia Rewards | Dining Offers",
+      "developer": "Swish Media LLC",
+      "icon": {
+        "src": "/apps/mangia-rewards/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/mangia-rewards/shot-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/mangia-rewards/shot-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/mangia-rewards/shot-3.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/mangia-rewards/shot-4.webp",
+          "width": 640,
+          "height": 1138
+        }
+      ],
+      "appStore": {
+        "rating": 5,
+        "ratingCount": 4,
+        "listed": true
+      }
+    },
+    "nomadz": {
+      "listed": false,
+      "storeName": null,
+      "developer": null,
+      "icon": null,
+      "screenshots": [],
+      "appStore": {
+        "listed": false
+      }
+    },
+    "pehchaan-balochistan": {
+      "listed": true,
+      "storeName": "Pehchaan Balochistan App",
+      "developer": "Punjab Safe Cities Authority",
+      "icon": {
+        "src": "/apps/pehchaan-balochistan/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/pehchaan-balochistan/shot-1.webp",
+          "width": 540,
+          "height": 1110
+        },
+        {
+          "src": "/apps/pehchaan-balochistan/shot-2.webp",
+          "width": 540,
+          "height": 1110
+        },
+        {
+          "src": "/apps/pehchaan-balochistan/shot-3.webp",
+          "width": 540,
+          "height": 1110
+        },
+        {
+          "src": "/apps/pehchaan-balochistan/shot-4.webp",
+          "width": 540,
+          "height": 1110
+        },
+        {
+          "src": "/apps/pehchaan-balochistan/shot-5.webp",
+          "width": 540,
+          "height": 1110
+        },
+        {
+          "src": "/apps/pehchaan-balochistan/shot-6.webp",
+          "width": 540,
+          "height": 1110
+        }
+      ],
+      "playStore": {
+        "installs": "10,000+",
+        "minInstalls": 10000,
+        "rating": null,
+        "ratingCount": null,
+        "listed": true
+      }
+    },
+    "planlocal": {
+      "listed": true,
+      "storeName": "PlanLocal: planes en tu zona",
+      "developer": "PlanLocal",
+      "icon": {
+        "src": "/apps/planlocal/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/planlocal/shot-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/planlocal/shot-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/planlocal/shot-3.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/planlocal/shot-4.webp",
+          "width": 640,
+          "height": 1138
+        }
+      ],
+      "playStore": {
+        "installs": "1,000+",
+        "minInstalls": 1000,
+        "rating": null,
+        "ratingCount": null,
+        "listed": true
+      }
+    },
+    "plative": {
+      "listed": true,
+      "storeName": "Plative",
+      "developer": "Plative",
+      "icon": {
+        "src": "/apps/plative/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/plative/shot-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/plative/shot-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/plative/shot-3.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/plative/shot-4.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/plative/shot-5.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/plative/shot-6.webp",
+          "width": 640,
+          "height": 1138
+        }
+      ],
+      "playStore": {
+        "installs": "50,000+",
+        "minInstalls": 50000,
+        "rating": null,
+        "ratingCount": null,
+        "listed": true
+      }
+    },
+    "qalbi": {
+      "listed": true,
+      "storeName": "Qalbi: Soulmate & Healing",
+      "developer": "MINDRACER LIMITED",
+      "icon": {
+        "src": "/apps/qalbi/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/qalbi/shot-1.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/qalbi/shot-2.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/qalbi/shot-3.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/qalbi/shot-4.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/qalbi/shot-5.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/qalbi/shot-6.webp",
+          "width": 640,
+          "height": 1391
+        }
+      ],
+      "appStore": {
+        "rating": null,
+        "ratingCount": 0,
+        "listed": true
+      }
+    },
+    "quran-urdu-audio": {
+      "listed": true,
+      "storeName": "Quran Urdu Audio Translation",
+      "developer": "bVoir Technologies",
+      "icon": {
+        "src": "/apps/quran-urdu-audio/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/quran-urdu-audio/shot-1.webp",
+          "width": 640,
+          "height": 1280
+        },
+        {
+          "src": "/apps/quran-urdu-audio/shot-2.webp",
+          "width": 640,
+          "height": 1280
+        },
+        {
+          "src": "/apps/quran-urdu-audio/shot-3.webp",
+          "width": 640,
+          "height": 1280
+        },
+        {
+          "src": "/apps/quran-urdu-audio/shot-4.webp",
+          "width": 640,
+          "height": 1280
+        },
+        {
+          "src": "/apps/quran-urdu-audio/shot-5.webp",
+          "width": 640,
+          "height": 1280
+        },
+        {
+          "src": "/apps/quran-urdu-audio/shot-6.webp",
+          "width": 640,
+          "height": 1280
+        }
+      ],
+      "playStore": {
+        "installs": "100,000+",
+        "minInstalls": 100000,
+        "rating": 4.4,
+        "ratingCount": 1049,
+        "listed": true
+      }
+    },
+    "roskalava": {
+      "listed": true,
+      "storeName": "Roskalava",
+      "developer": "Antti",
+      "icon": {
+        "src": "/apps/roskalava/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/roskalava/shot-1.webp",
+          "width": 640,
+          "height": 1422
+        },
+        {
+          "src": "/apps/roskalava/shot-2.webp",
+          "width": 640,
+          "height": 1422
+        },
+        {
+          "src": "/apps/roskalava/shot-3.webp",
+          "width": 640,
+          "height": 1422
+        },
+        {
+          "src": "/apps/roskalava/shot-4.webp",
+          "width": 640,
+          "height": 1422
+        },
+        {
+          "src": "/apps/roskalava/shot-5.webp",
+          "width": 640,
+          "height": 1422
+        },
+        {
+          "src": "/apps/roskalava/shot-6.webp",
+          "width": 640,
+          "height": 1422
+        }
+      ],
+      "playStore": {
+        "installs": "1,000+",
+        "minInstalls": 1000,
+        "rating": null,
+        "ratingCount": null,
+        "listed": true
+      }
+    },
+    "swimtofly": {
+      "listed": true,
+      "storeName": "SwimtoFly - Learn how to Swim",
+      "developer": "SwimtoFly Pte. Ltd.",
+      "icon": {
+        "src": "/apps/swimtofly/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/swimtofly/shot-1.webp",
+          "width": 640,
+          "height": 1280
+        },
+        {
+          "src": "/apps/swimtofly/shot-2.webp",
+          "width": 640,
+          "height": 1280
+        },
+        {
+          "src": "/apps/swimtofly/shot-3.webp",
+          "width": 640,
+          "height": 1280
+        },
+        {
+          "src": "/apps/swimtofly/shot-4.webp",
+          "width": 640,
+          "height": 1280
+        },
+        {
+          "src": "/apps/swimtofly/shot-5.webp",
+          "width": 640,
+          "height": 1280
+        },
+        {
+          "src": "/apps/swimtofly/shot-6.webp",
+          "width": 640,
+          "height": 1280
+        }
+      ],
+      "playStore": {
+        "installs": "10,000+",
+        "minInstalls": 10000,
+        "rating": 4.7,
+        "ratingCount": 309,
+        "listed": true
+      }
+    },
+    "tas-dating": {
+      "listed": true,
+      "storeName": "TAS Dating",
+      "developer": "TAS Dating",
+      "icon": {
+        "src": "/apps/tas-dating/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/tas-dating/shot-1.webp",
+          "width": 640,
+          "height": 1389
+        },
+        {
+          "src": "/apps/tas-dating/shot-2.webp",
+          "width": 640,
+          "height": 1389
+        },
+        {
+          "src": "/apps/tas-dating/shot-3.webp",
+          "width": 640,
+          "height": 1389
+        },
+        {
+          "src": "/apps/tas-dating/shot-4.webp",
+          "width": 640,
+          "height": 1389
+        },
+        {
+          "src": "/apps/tas-dating/shot-5.webp",
+          "width": 640,
+          "height": 1389
+        },
+        {
+          "src": "/apps/tas-dating/shot-6.webp",
+          "width": 640,
+          "height": 1389
+        }
+      ],
+      "playStore": {
+        "installs": "500+",
+        "minInstalls": 500,
+        "rating": null,
+        "ratingCount": null,
+        "listed": true
+      }
+    },
+    "tern-rewards": {
+      "listed": true,
+      "storeName": "Tern Rewards",
+      "developer": "TERN APP TECHNOLOGIES CO. L.L.C",
+      "icon": {
+        "src": "/apps/tern-rewards/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/tern-rewards/shot-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/tern-rewards/shot-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/tern-rewards/shot-3.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/tern-rewards/shot-4.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/tern-rewards/shot-5.webp",
+          "width": 640,
+          "height": 867
+        },
+        {
+          "src": "/apps/tern-rewards/shot-6.webp",
+          "width": 640,
+          "height": 867
+        }
+      ],
+      "playStore": {
+        "installs": "5,000+",
+        "minInstalls": 5000,
+        "rating": null,
+        "ratingCount": null,
+        "listed": true
+      }
+    },
+    "winelikes": {
+      "listed": true,
+      "storeName": "Winelikes",
+      "developer": "Winelikes LLC",
+      "icon": {
+        "src": "/apps/winelikes/icon.webp",
+        "width": 192,
+        "height": 192
+      },
+      "screenshots": [
+        {
+          "src": "/apps/winelikes/shot-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/winelikes/shot-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/winelikes/shot-3.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/winelikes/shot-4.webp",
+          "width": 640,
+          "height": 1138
+        }
+      ],
+      "appStore": {
+        "rating": 4.5,
+        "ratingCount": 26,
+        "listed": true
+      }
+    }
+  }
+}

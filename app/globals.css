@@ -1,177 +1,304 @@
 @import "tailwindcss";
 
+/* ───────────────────────────────────────────────────────────────────────────
+   Tokens
+   Light: warm paper and ink. Dark: warm charcoal, designed separately (lifted
+   accent, rims instead of shadows), not an inversion. Every text pairing ≥ 4.5:1.
+   ─────────────────────────────────────────────────────────────────────────── */
+
 :root {
-  --bg-base: #000000;
-  --bg-elevated: #050505;
-  --bg-surface: #0f0f0f;
-  --bg-surface-hover: #161616;
-  --foreground: #ededed;
-  --foreground-muted: #8a8f98;
-  --foreground-subtle: #5c6370;
-  --border: rgba(255, 255, 255, 0.08);
-  --border-hover: rgba(255, 255, 255, 0.16);
-  --accent: #f4f4f5;
-  --accent-fg: #09090b;
-  --accent-muted: #60a5fa;
-  --ring: rgba(244, 244, 245, 0.35);
-  --grid-line: rgba(255, 255, 255, 0.04);
-  --ambient: rgba(255, 255, 255, 0.03);
-  --elevation-1: 0 1px 2px rgba(0, 0, 0, 0.5);
-  --elevation-2: 0 8px 24px rgba(0, 0, 0, 0.45);
-  --elevation-3: 0 20px 48px rgba(0, 0, 0, 0.55);
+  --paper: #f5f3ee;
+  --paper-raised: #fbfaf7;
+  --paper-sunk: #ece8e0;
+  --ink: #1b1a17;
+  --ink-2: #3d3a34;
+  --muted: #66625a;
+  --rule: #e2ded5;
+  --rule-strong: #cdc7bb;
+  --accent: #b13a0b;
+  --accent-hover: #943008;
+  --on-accent: #ffffff;
+  --plate-mix: 13%;
+  --phone-shadow: 0 1px 2px rgb(40 30 20 / 0.12), 0 24px 48px -16px rgb(60 40 20 / 0.32);
+  --phone-rim: transparent;
+  --stamp-shadow: 0 1px 2px rgb(40 30 20 / 0.15), 0 12px 24px -8px rgb(60 40 20 / 0.35);
+  --selection: rgb(177 58 11 / 0.16);
+  color-scheme: light;
 }
 
-@theme inline {
-  --color-background: var(--bg-base);
-  --color-foreground: var(--foreground);
-  --color-muted: var(--foreground-muted);
-  --color-subtle: var(--foreground-subtle);
-  --color-surface: var(--bg-surface);
-  --color-surface-hover: var(--bg-surface-hover);
-  --color-border: var(--border);
-  --color-border-hover: var(--border-hover);
-  --color-accent: var(--accent);
-  --color-accent-fg: var(--accent-fg);
-  --color-accent-muted: var(--accent-muted);
-  --font-sans: var(--font-plex-sans);
-  --font-display: var(--font-syne);
-  --font-mono: var(--font-jetbrains);
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
+[data-theme="dark"] {
+  --paper: #131211;
+  --paper-raised: #1c1b19;
+  --paper-sunk: #1a1917;
+  --ink: #ece9e2;
+  --ink-2: #cfcbc3;
+  --muted: #a19c92;
+  --rule: #2a2825;
+  --rule-strong: #3d3a36;
+  --accent: #ff7a45;
+  --accent-hover: #ff9466;
+  --on-accent: #1b0e07;
+  --plate-mix: 18%;
+  --phone-shadow: 0 24px 48px -20px rgb(0 0 0 / 0.7);
+  --phone-rim: rgb(255 255 255 / 0.09);
+  --stamp-shadow: 0 12px 24px -10px rgb(0 0 0 / 0.8);
+  --selection: rgb(255 122 69 / 0.24);
   color-scheme: dark;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
+/* No-JS fallback: follow the OS when no theme has been chosen. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --paper: #131211;
+    --paper-raised: #1c1b19;
+    --paper-sunk: #1a1917;
+    --ink: #ece9e2;
+    --ink-2: #cfcbc3;
+    --muted: #a19c92;
+    --rule: #2a2825;
+    --rule-strong: #3d3a36;
+    --accent: #ff7a45;
+    --accent-hover: #ff9466;
+    --on-accent: #1b0e07;
+    --plate-mix: 18%;
+    --phone-shadow: 0 24px 48px -20px rgb(0 0 0 / 0.7);
+    --phone-rim: rgb(255 255 255 / 0.09);
+    --stamp-shadow: 0 12px 24px -10px rgb(0 0 0 / 0.8);
+    --selection: rgb(255 122 69 / 0.24);
+    color-scheme: dark;
   }
+}
 
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-raised: var(--paper-raised);
+  --color-paper-sunk: var(--paper-sunk);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-on-accent: var(--on-accent);
+
+  --font-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-onest), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+
+  /* Fluid type scale (≈1.25 ratio at mobile, opening up on desktop) */
+  --text-hero: clamp(2.75rem, 1.55rem + 5.1vw, 6rem);
+  --text-hero--line-height: 0.95;
+  --text-hero--letter-spacing: -0.035em;
+  --text-h2: clamp(2.25rem, 1.6rem + 2.6vw, 4rem);
+  --text-h2--line-height: 1;
+  --text-h2--letter-spacing: -0.03em;
+  --text-h3: clamp(1.625rem, 1.35rem + 1vw, 2.25rem);
+  --text-h3--line-height: 1.1;
+  --text-h3--letter-spacing: -0.02em;
+  --text-lead: clamp(1.125rem, 1.05rem + 0.35vw, 1.3125rem);
+  --text-lead--line-height: 1.55;
+  --text-body: 1.0625rem;
+  --text-body--line-height: 1.65;
+  --text-meta: 0.8125rem;
+  --text-meta--line-height: 1.4;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.4, 0.64, 1);
+}
+
+/* ─── Base ──────────────────────────────────────────────────────────────── */
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: 5rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
   }
 }
 
 body {
-  background: var(--bg-base);
-  color: var(--foreground);
-  font-family: var(--font-sans), system-ui, sans-serif;
-  overflow-x: hidden;
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  line-height: var(--text-body--line-height);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
-.font-display {
-  font-family: var(--font-display), var(--font-sans), system-ui, sans-serif;
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+  font-weight: 650;
+  text-wrap: balance;
 }
 
-.font-mono {
-  font-family: var(--font-mono), ui-monospace, monospace;
-}
-
-/* Ambient hero background */
-.hero-ambient {
-  background-color: var(--bg-base);
-  background-image:
-    radial-gradient(ellipse 70% 50% at 50% -10%, var(--ambient), transparent 70%),
-    linear-gradient(var(--grid-line) 1px, transparent 1px),
-    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
-  background-size: auto, 64px 64px, 64px 64px;
-  background-position: center, center, center;
-}
-
-/* Surface card */
-.surface-card {
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
-  box-shadow: var(--elevation-1);
-  transition:
-    border-color 200ms ease,
-    background-color 200ms ease,
-    box-shadow 250ms ease,
-    transform 250ms cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.surface-card:hover {
-  border-color: var(--border-hover);
-  background: var(--bg-surface-hover);
-  box-shadow: var(--elevation-2);
-}
-
-.surface-card-interactive {
-  cursor: pointer;
-}
-
-.surface-card-interactive:hover {
-  transform: translateY(-2px);
-}
-
-/* Section rhythm */
-.section-padding {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
-@media (min-width: 1024px) {
-  .section-padding {
-    padding-top: 7.5rem;
-    padding-bottom: 7.5rem;
-  }
-}
-
-@media (max-width: 767px) {
-  .section-padding {
-    padding-top: 4.5rem;
-    padding-bottom: 4.5rem;
-  }
-}
-
-/* Timeline */
-.timeline-line {
-  background: linear-gradient(
-    180deg,
-    transparent 0%,
-    var(--border) 8%,
-    var(--border) 92%,
-    transparent 100%
-  );
-}
-
-/* Scrollbar */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.12);
-  border-radius: 999px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.2);
-}
-
-*:focus-visible {
-  outline: 2px solid var(--ring);
-  outline-offset: 2px;
+p {
+  text-wrap: pretty;
 }
 
 ::selection {
-  background: rgba(244, 244, 245, 0.16);
-  color: var(--foreground);
+  background: var(--selection);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ─── Layout ────────────────────────────────────────────────────────────── */
+
+@utility container-page {
+  width: 100%;
+  max-width: 76rem;
+  margin-inline: auto;
+  padding-inline: clamp(1.25rem, 4.5vw, 3rem);
+}
+
+@utility section-space {
+  padding-block: clamp(5rem, 3.5rem + 6vw, 9rem);
+}
+
+/* ─── Links ─────────────────────────────────────────────────────────────── */
+
+@utility link {
+  color: var(--ink);
+  text-decoration-line: underline;
+  text-decoration-color: var(--rule-strong);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+  transition: text-decoration-color 160ms ease, color 160ms ease;
+  &:hover {
+    text-decoration-color: var(--accent);
+  }
+}
+
+/* ─── Header: border fades in once the page scrolls (progressive) ───────── */
+
+@keyframes header-rule {
+  to {
+    border-bottom-color: var(--rule);
+  }
+}
+
+.site-header {
+  border-bottom: 1px solid transparent;
+}
+
+@supports (animation-timeline: scroll()) {
+  .site-header {
+    animation: header-rule linear both;
+    animation-timeline: scroll();
+    animation-range: 0 80px;
+  }
+}
+
+/* ─── Phones ────────────────────────────────────────────────────────────── */
+
+/* The outer element is the size container; the body reads its width (cqi).
+   The screen takes the screenshot's own aspect ratio (set inline), so store
+   screenshots of any shape fill the frame without being cropped. */
+.phone {
+  container-type: inline-size;
+}
+
+.phone-body {
+  border-radius: 15cqi;
+  padding: 3.2cqi;
+  background: #0d0d0c;
+  box-shadow: var(--phone-shadow), 0 0 0 1px var(--phone-rim);
+}
+
+.phone-screen {
+  position: relative;
+  aspect-ratio: 9 / 19.5;
+  overflow: hidden;
+  border-radius: 12cqi;
+  background: #222;
+}
+
+/* ─── Motion ────────────────────────────────────────────────────────────── */
+
+/* Section reveal: only hidden when JS is running, so content never depends on it. */
+.js [data-reveal] {
+  opacity: 0;
+  translate: 0 14px;
+  transition:
+    opacity 700ms var(--ease-out-expo),
+    translate 700ms var(--ease-out-expo);
+  transition-delay: calc(var(--reveal-i, 0) * 70ms);
+}
+
+.js [data-reveal][data-shown] {
+  opacity: 1;
+  translate: 0 0;
+}
+
+@keyframes phone-in {
+  from {
+    opacity: 0;
+    translate: 0 40px;
+    rotate: 0deg;
+  }
+}
+
+.hero-phone {
+  animation: phone-in 900ms var(--ease-out-expo) both;
+  animation-delay: calc(120ms + var(--i, 0) * 90ms);
+}
+
+@keyframes stamp-in {
+  from {
+    opacity: 0;
+    scale: 0.9;
+    rotate: 4deg;
+  }
+}
+
+.hero-stamp {
+  animation: stamp-in 700ms var(--ease-spring) 520ms both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js [data-reveal] {
+    translate: none;
+    transition: opacity 1ms;
+  }
+  .hero-phone,
+  .hero-stamp {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 1ms !important;
+  }
+}
+
+/* Smooth theme crossfade via View Transitions where supported */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 260ms;
+}
+
+/* ─── Collapsible list: first 9 items until expanded (JS only) ─────────── */
+
+.js [data-collapsible]:not([data-expanded]) > li:nth-child(n + 10) {
+  display: none;
+}
+
+/* ─── Scroll strip ──────────────────────────────────────────────────────── */
+
+.scroll-strip {
+  scrollbar-width: thin;
+  scrollbar-color: var(--rule-strong) transparent;
+  mask-image: linear-gradient(to right, transparent 0, #000 1.25rem, #000 calc(100% - 3rem), transparent 100%);
 }

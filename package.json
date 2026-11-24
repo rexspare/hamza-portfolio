@@ -6,14 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sync:stores": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/sync-stores.mjs"
   },
   "dependencies": {
-    "@iconify/react": "^6.0.2",
-    "@perttu/app-store-scraper": "^2.0.0",
-    "framer-motion": "^11.18.2",
     "lucide-react": "^1.22.0",
-    "motion": "^12.42.2",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"
