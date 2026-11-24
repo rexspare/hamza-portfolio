@@ -19,7 +19,7 @@ export function FeaturedWork() {
       <SectionHeading
         id="work"
         title="Work"
-        intro="Four products across mobile, web and backend, from the first commit to release. Each links to a longer write-up of how it was built."
+        intro="Four products across mobile, web and backend, from the first commit to release."
       />
       <div className="flex flex-col gap-24 sm:gap-32">
         {featured.map((project, i) => (
@@ -92,16 +92,14 @@ function FeaturedBlock({ project, flip }: { project: Project; flip: boolean }) {
           </dl>
         )}
 
-        <div className="mt-9 flex flex-wrap items-center gap-x-6 gap-y-3">
-          <ArrowLink href={`/work/${project.slug}`}>
-            Read the case study<span className="sr-only"> for {project.name}</span>
-          </ArrowLink>
-          {link && (
-            <ArrowLink href={link.href} external className="text-muted">
+        {/* Case study links (/work/[slug]) come back once those pages are built. */}
+        {link && (
+          <div className="mt-9">
+            <ArrowLink href={link.href} external>
               {link.label}
             </ArrowLink>
-          )}
-        </div>
+          </div>
+        )}
       </div>
 
       <div data-reveal style={{ "--reveal-i": 1 } as React.CSSProperties} className={`lg:sticky lg:top-24 lg:col-span-7 ${flip ? "lg:order-1" : ""}`}>

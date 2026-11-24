@@ -46,29 +46,6 @@
   color-scheme: dark;
 }
 
-/* No-JS fallback: follow the OS when no theme has been chosen. */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme]) {
-    --paper: #131211;
-    --paper-raised: #1c1b19;
-    --paper-sunk: #1a1917;
-    --ink: #ece9e2;
-    --ink-2: #cfcbc3;
-    --muted: #a19c92;
-    --rule: #2a2825;
-    --rule-strong: #3d3a36;
-    --accent: #ff7a45;
-    --accent-hover: #ff9466;
-    --on-accent: #1b0e07;
-    --plate-mix: 18%;
-    --phone-shadow: 0 24px 48px -20px rgb(0 0 0 / 0.7);
-    --phone-rim: rgb(255 255 255 / 0.09);
-    --stamp-shadow: 0 12px 24px -10px rgb(0 0 0 / 0.8);
-    --selection: rgb(255 122 69 / 0.24);
-    color-scheme: dark;
-  }
-}
-
 @theme inline {
   --color-paper: var(--paper);
   --color-paper-raised: var(--paper-raised);
